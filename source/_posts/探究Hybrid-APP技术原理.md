@@ -6,8 +6,8 @@ categories: Hybrid-APP
 ---
 
 > 探究Hybrid-APP技术原理
-> author: @TiffanysBear
-> 
+> author: [@TiffanysBear](https://tiffanysbear.github.io/)
+
 
 ## 背景
 
@@ -109,7 +109,7 @@ URL Scheme是什么
 
 设置URL Scheme
 
-> xxxappp://communication?args=xx
+> xxxapp://communication?args=xx
 
 
 

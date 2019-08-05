@@ -2,7 +2,7 @@
 title: getBoundingClientRect使用指南
 date: 2019-05-22 14:22:10
 tags: getBoundingClientRect
-categories: Javascript
+categories: JavaScript
 ---
 
 

@@ -2,7 +2,7 @@
 title: 移动端吸顶fixbar解决方案
 date: 2019-05-21 20:51:49
 tags: 移动端吸顶fixbar
-categories: Javascript
+categories: JavaScript
 ---
 
 ## 需求背景

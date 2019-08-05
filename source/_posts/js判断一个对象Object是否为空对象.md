@@ -2,7 +2,7 @@
 title: js判断一个对象Object是否为空对象
 date: 2019-05-21 20:48:38
 tags: js判断空对象的方法
-categories: Javascript
+categories: JavaScript
 ---
 
 >  js判断空对象的方法

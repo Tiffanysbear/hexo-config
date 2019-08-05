@@ -2,7 +2,7 @@
 title: JavaScript编写高质量的68个有效方法
 date: 2019-05-21 20:54:50
 tags: Effective JavaScript
-categories: Javascript
+categories: JavaScript
 ---
 > Effective JavaScript编写高质量的68个有效方法
 > author：@Tiffanysbear 

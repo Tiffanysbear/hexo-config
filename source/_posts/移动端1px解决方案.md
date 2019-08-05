@@ -2,7 +2,7 @@
 title: 移动端1px解决方案
 date: 2019-05-21 20:47:19
 tags: 移动端1px的实现
-categories: Javascript
+categories: JavaScript
 ---
 
 > 移动端1px的实现

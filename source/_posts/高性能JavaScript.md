@@ -2,13 +2,14 @@
 title: 高性能JavaScript
 date: 2019-07-11 10:41:09
 tags: 高性能JavaScript
-categories: Javascript
+categories: JavaScript
 
 ---
 
 
 > 高性能JavaScript
-> author: @TiffanysBear
+> author: [@TiffanysBear](https://tiffanysbear.github.io/)
+
 
 从《高性能JavaScript》一书中的整理笔记：
 

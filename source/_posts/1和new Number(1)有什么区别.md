@@ -2,7 +2,7 @@
 title: 1和new Number(1)有什么区别
 date: 2019-06-06 15:43:31
 tags: 包装对象
-categories: Javascript
+categories: JavaScript
 ---
 
 > 1和new Number(1)有什么区别
