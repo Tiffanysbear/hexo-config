@@ -20,7 +20,9 @@ categories: JavaScript
 先来看一下效果演示：
 
 <iframe height="257" style="width: 100%;" scrolling="no" title="Vue.js | Mouseover &amp; Mouseleave" src="//codepen.io/AAA_TTT/embed/VorrpN/?height=257&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/AAA_TTT/pen/VorrpN/'>Vue.js | Mouseover &amp; Mouseleave</a> by 
+  See the Pen <a href='https://codepen.io/AAA_TTT/pen/VorrpN/'>Vue.js | Mouseover &amp; Mouseleave</a> by AAA_TTT
+  (<a href='https://codepen.io/AAA_TTT'>@AAA_TTT</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ### 问题思考
 基于上述的问题，思考是如下：

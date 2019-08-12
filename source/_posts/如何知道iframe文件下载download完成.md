@@ -13,7 +13,7 @@ categories: JavaScript
 当使用iframe作为文件下载的载体时，如何知道文件已经下载完毕。现有的iframe的onLoad方法具有兼容性问题，在chrome、IE下无法监听onLoad事件监听文件下载完毕，因为onLoad事件本身也是对iframe中的html结构的加载进度监听。
 
 ```
- var url = "http://www.example.com/file.zip";
+ var url = 'http://www.example.com/file.zip';
  var iframe = document.createElement('iframe');
  iframe.src = url;
  iframe.style.display = 'none';
@@ -34,11 +34,11 @@ categories: JavaScript
 > Content-Disposition为属性名disposition-type是以什么方式下载，如attachment为以附件方式下载disposition-parm为默认保存时的文件名服务端向客户端游览器发送文件时，如果是浏览器支持的文件类型，一般会默认使用浏览器打开，比如txt、jpg等，会直接在浏览器中显示
 > 
 > 注意事项：
-> 1.当代码里面使用Content-Disposition来确保浏览器弹出下载对话框的时候。 response.addHeader("Content-Disposition","attachment");一定要确保没有做过关于禁止浏览器缓存的操作。
+> 1.当代码里面使用Content-Disposition来确保浏览器弹出下载对话框的时候。 response.addHeader('Content-Disposition', 'attachment');一定要确保没有做过关于禁止浏览器缓存的操作。
 代码如下:
-response.setHeader("Pragma", "No-cache");
-response.setHeader("Cache-Control", "No-cache");
-response.setDateHeader("Expires", 0);
+response.setHeader('Pragma', 'No-cache');
+response.setHeader('Cache-Control', 'No-cache');
+response.setDateHeader('Expires', 0);
 > 不然会发现下载功能在opera和firefox里面好好的没问题，在IE下面就是不行
 
 
@@ -57,10 +57,10 @@ response.setDateHeader("Expires", 0);
 ```
  // 不让浏览器自动检测文件类型
  // 说明资料：http://drops.wooyun.org/tips/1166
- response.addHeader("X-Content-Type-Options", "nosniff");
+ response.addHeader('X-Content-Type-Options', 'nosniff');
  // 提示浏览器不让其在frame或iframe中加载资源的文件内容
  // https://developer.mozilla.org/zh-CN/docs/Web/HTTP/X-Frame-Options
- response.addHeader("X-Frame-Options", "deny");
+ response.addHeader('X-Frame-Options', 'deny');
 
 ```
 
